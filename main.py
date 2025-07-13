@@ -1060,7 +1060,7 @@ async def text_handler(bot: Client, m: Message):
             res = "UN"
           
     await editable.delete()
-    raw_text4 = "working_token"
+    raw_text4 = "https://team-jnc-ba95987c225e.herokuapp.com/api?url="
     thumb = "/d"
     count =0
     arg =1
