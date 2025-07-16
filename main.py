@@ -1622,7 +1622,7 @@ def notify_owner():
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     data = {
         "chat_id": OWNER,
-        "text": "𝐁𝐨𝐭 𝐑𝐞𝐬𝐚𝐭 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ✅"
+        "text": "𝐁𝐨𝐭 𝐑𝐞𝐬𝐚𝐭 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ⭐✅"
     }
     requests.post(url, data=data)
 
